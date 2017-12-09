@@ -8,5 +8,5 @@ script:
  - bower install
  - dotnet restore
  - dotnet build
- - npm install -g karma
+ - npm install -g karma-cli
  - karma start
