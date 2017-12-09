@@ -9,5 +9,6 @@ script:
  - dotnet restore
  - dotnet build
  - npm install -g karma-cli
+ - npm install -g codecov.io
  - karma start
- - codecov < coverage/cobertura/cobertura-coverage.xml -t codecov-env
+ - codecov < coverage/cobertura/cobertura-coverage.xml -t 0c1b9f6a-b7e3-4cb0-b560-0028bed4e809
