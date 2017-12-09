@@ -1,6 +1,5 @@
-describe("A test", function(){
-    it("is true", function(){
-        var test=true;
-        expect(test).toBe(true);
+describe("Sqrt", function(){
+    it("Should compute the square root of 4 as 2", function(){ 
+        expect(My.sqrt(4)).toEqual(2);
     });
 });

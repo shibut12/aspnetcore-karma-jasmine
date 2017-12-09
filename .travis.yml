@@ -10,3 +10,4 @@ script:
  - dotnet build
  - npm install -g karma-cli
  - karma start
+ - codecov < coverage/cobertura/cobertura-coverage.xml -t codecov-env

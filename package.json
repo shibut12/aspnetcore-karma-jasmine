@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/shibut12/aspnetcore-karma-jasmine#readme",
   "dependencies": {
+    "codecov.io": "^0.1.6",
     "jasmine-core": "^2.8.0",
     "karma": "^1.7.1",
     "karma-coverage": "^1.1.1",
