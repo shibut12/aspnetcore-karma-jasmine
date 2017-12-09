@@ -1,0 +1,11 @@
+language: csharp
+dist: trusty
+mono: none
+dotnet: 2.0.0
+script:
+ - npm install
+ - bower install
+ - dotnet restore
+ - dotnet build
+ - npm install -g karma
+ - karma start
